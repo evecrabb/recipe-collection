@@ -1,3 +1,18 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Eve's recipe collection"
+theme = "eve-theme"
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  [related]
+  treshold = 100
+  includeNewer = true
+  toLower = true
+
+  [[related.indices]]
+      name = "categories"
+      weight = 1
+[taxonomies]
+  tag = "tags"
+  category = "categories"
