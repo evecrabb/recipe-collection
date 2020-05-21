@@ -1,0 +1,36 @@
+import { r as registerInstance, h } from './index-5a8922dc.js';
+
+function format(first, middle, last) {
+    return ((first || '') +
+        (middle ? ` ${middle}` : '') +
+        (last ? ` ${last}` : ''));
+}
+
+const myComponentCss = ":host{display:block}";
+
+const MyComponent = class {
+    constructor(hostRef) {
+        registerInstance(this, hostRef);
+    }
+    getText() {
+        return format(this.first, this.middle, this.last);
+    }
+    render() {
+        return h("div", null, "Hello, World! I'm ", this.getText());
+    }
+};
+MyComponent.style = myComponentCss;
+
+const navCss = "";
+
+const NavBar = class {
+    constructor(hostRef) {
+        registerInstance(this, hostRef);
+    }
+    render() {
+        return (h("footer", null, "This is the footer"));
+    }
+};
+NavBar.style = navCss;
+
+export { MyComponent as my_component, NavBar as nav_bar };

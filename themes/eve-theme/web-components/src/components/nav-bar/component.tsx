@@ -1,4 +1,4 @@
-import { Component, Prop, h } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'nav-bar',
@@ -10,7 +10,7 @@ export class NavBar {
   render() {
     return (
       <footer>
-        This is the footer
+        This is the navBar!
       </footer>
     );
   }
