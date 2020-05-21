@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/evecrabb/recipe-collection/issues"
   },
-  "homepage": "https://github.com/evecrabb/recipe-collection#readme"
+  "homepage": "https://github.com/evecrabb/recipe-collection#readme",
+  "dependencies": {
+    "@stencil/core": "1.13.0"
+  }
 }
