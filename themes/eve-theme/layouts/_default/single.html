@@ -1,0 +1,24 @@
+<ul>
+  {{ range .Site.Pages }}
+    <li>{{ . }}</li>
+  {{ end }}
+</ul>
+
+<ul>
+  {{ range .Pages }}
+    <li>{{ . }}</li>
+  {{ end }}
+</ul>
+
+{{ range .Pages.GroupBy "Section" }}
+  {{ .Key }}
+  <ul>
+    {{ range .Pages }}
+    <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
+
+{{ .Content }}

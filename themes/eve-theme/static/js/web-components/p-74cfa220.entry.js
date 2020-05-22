@@ -1,0 +1,1 @@
+import{r,h as a}from"./p-556664f2.js";const n=class{constructor(a){r(this,a)}render(){return a("header",null,a("nav",null,"This is the navBar!"))}};n.style="header{background-color:#152614;color:#fff;padding:16px 24px}";export{n as nav_bar}

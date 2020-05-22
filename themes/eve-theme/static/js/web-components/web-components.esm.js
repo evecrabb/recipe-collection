@@ -1,1 +1,1 @@
-import{p as a,b as m}from"./p-556664f2.js";a().then(a=>m([["p-1717a466",[[1,"my-component",{first:[1],middle:[1],last:[1]}],[1,"nav-bar"]]]],a));
+import{p as a,b as p}from"./p-556664f2.js";a().then(a=>p([["p-f28d9c8c",[[1,"my-component",{first:[1],middle:[1],last:[1]}]]],["p-74cfa220",[[1,"nav-bar"]]]],a));

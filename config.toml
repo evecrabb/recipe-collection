@@ -14,5 +14,5 @@ theme = "eve-theme"
       name = "categories"
       weight = 1
 [taxonomies]
-  tag = "tags"
+  ingredient = "ingredients"
   category = "categories"

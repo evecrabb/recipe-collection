@@ -9,9 +9,11 @@ import { Component, h } from '@stencil/core';
 export class NavBar {
   render() {
     return (
-      <footer>
-        This is the navBar!
-      </footer>
+      <header>
+        <nav>
+          This is the navBar!
+        </nav>
+      </header>
     );
   }
 }
