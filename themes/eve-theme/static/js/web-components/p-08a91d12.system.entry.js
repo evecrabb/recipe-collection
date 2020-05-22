@@ -1,1 +1,0 @@
-System.register(["./p-41fd5803.system.js"],(function(r){"use strict";var n,e;return{setters:[function(r){n=r.r;e=r.h}],execute:function(){var t="header{background-color:#152614;color:#fff;padding:16px 24px}";var u=r("nav_bar",function(){function r(r){n(this,r)}r.prototype.render=function(){return e("header",null,e("nav",null,"This is the navBar!"))};return r}());u.style=t}}}));

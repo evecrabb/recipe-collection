@@ -3,9 +3,13 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "navbar.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
+
+        <header class="hero">
+          <section class="hero__container">
+            <h1>This is the title</h1>
+          </section>
+        </header>
+
         {{- partial "footer.html" . -}}
     </body>
 </html>

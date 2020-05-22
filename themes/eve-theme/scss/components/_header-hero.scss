@@ -1,0 +1,15 @@
+.hero {
+  background-image: url('../images/worktop.jpg');
+  background-repeat: repeat-x;
+  background-size: cover;
+
+  &__container {
+    margin: auto;
+    text-align: center;
+    padding: $unit-large 0;
+
+    h1 {
+      @include useType(title);
+    }
+  }
+}

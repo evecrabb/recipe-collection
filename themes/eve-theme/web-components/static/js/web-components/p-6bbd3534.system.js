@@ -1,1 +1,0 @@
-System.register(["./p-41fd5803.system.js"],(function(){"use strict";var t,e;return{setters:[function(n){t=n.p;e=n.b}],execute:function(){t().then((function(t){return e([["p-b1c9c057.system",[[1,"my-component",{first:[1],middle:[1],last:[1]}],[1,"nav-bar"]]]],t)}))}}}));

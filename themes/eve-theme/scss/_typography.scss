@@ -1,0 +1,10 @@
+@mixin useType ($scale) {
+  @if $scale == title {
+    display: inline-block;
+    padding: $unit-base $unit-small;
+    font-family: 'Bebas Neue', cursive;
+    font-size: $unit-large;
+    color: $white;
+    background-color: black;
+  }
+}
