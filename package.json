@@ -4,7 +4,8 @@
   "description": "This is my food blog.",
   "main": "index.js",
   "scripts": {
-    "build:css": "sass --watch --style=compressed --no-source-map themes/eve-theme/scss/main.scss themes/eve-theme/static/css/styles.css"
+    "build:css": "sass --watch --style=compressed --no-source-map themes/eve-theme/scss/main.scss themes/eve-theme/static/css/styles.css",
+    "launch": "npm run prep:css"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/evecrabb/recipe-collection#readme",
   "dependencies": {
-    "@stencil/core": "1.13.0",
     "sass": "^1.26.5"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.30",
+    "postcss-cli": "^7.1.1"
   }
 }

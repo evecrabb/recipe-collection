@@ -1,0 +1,18 @@
+.recipe-list {
+  $recipe-list: &;
+  margin: $unit-medium;
+  padding: 0;
+
+  li {
+    border: solid 1px $black;
+    list-style: none;
+
+    #{$recipe-list}-item {
+      &__title {
+        @include useType(title);
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}

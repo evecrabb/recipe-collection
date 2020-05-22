@@ -6,9 +6,24 @@
 
         <header class="hero">
           <section class="hero__container">
-            <h1>This is the title</h1>
+            <h1>Eve's Recipe Collection</h1>
           </section>
         </header>
+
+        <main>
+          {{ range .Pages.GroupBy "Section" }}
+          {{ .Key }}
+          <ul class="recipe-list">
+            {{ range .Pages }}
+            <li >
+              <a href="{{ .Permalink }}" class="recipe-list-item">
+                <h2 class="recipe-list-item__title">{{ .Title }}</h2>
+              </a>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+        </main>
 
         {{- partial "footer.html" . -}}
     </body>
