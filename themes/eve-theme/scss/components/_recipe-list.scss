@@ -15,4 +15,9 @@
       }
     }
   }
+
+  @media (min-width: #{$tablet}) {
+    display: flex;
+    @include width-container;
+  }
 }

@@ -1,0 +1,10 @@
+@mixin width-container() {
+  margin: auto;
+  margin-right: $unit-medium;
+  margin-left: $unit-medium;
+  
+  @media (min-width: $tablet) {
+    width: 100%;
+    max-width: $max-width;
+  }
+}

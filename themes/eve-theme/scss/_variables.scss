@@ -14,3 +14,9 @@ $unit-base: 8px;
 $unit-small: $unit-base * 2;
 $unit-medium: $unit-base * 3;
 $unit-large: $unit-base * 4;
+
+$max-width: 960px;
+
+// screen breakpoints
+$tablet: 767px;
+$desktop: 1140px;
