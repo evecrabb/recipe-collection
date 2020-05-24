@@ -1,10 +1,28 @@
 @mixin useType ($scale) {
   @if $scale == title {
-    display: inline-block;
     padding: $unit-base $unit-small;
     font-family: 'Bebas Neue', cursive;
-    font-size: $unit-large;
+    font-size: 60px;
     color: $white;
     background-color: black;
+    width: fit-content;
+  }
+
+  @if $scale == subtitle {
+    font-family: 'Bebas Neue', cursive;
+    font-size: $unit-large;
+    border-bottom: solid 4px $black;
+    margin-top: $unit-large;
+  }
+
+  @if $scale == subsubtitle {
+    font-family: 'Bebas Neue', cursive;
+    font-size: $unit-medium;
+  }
+
+  @if $scale == copy {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
   }
 }

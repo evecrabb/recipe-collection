@@ -1,9 +1,10 @@
 @mixin width-container() {
-  margin: auto;
   margin-right: $unit-medium;
   margin-left: $unit-medium;
   
-  @media (min-width: $tablet) {
+  @media (min-width: $desktop) {
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
     max-width: $max-width;
   }

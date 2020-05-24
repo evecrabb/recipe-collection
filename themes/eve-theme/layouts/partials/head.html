@@ -16,6 +16,10 @@
     {{ .Title }}
   </title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital@1&display=swap" rel="stylesheet">
+  {{ if eq .Title "Home" }}
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  {{ else }}
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  {{ end }}
 </head>

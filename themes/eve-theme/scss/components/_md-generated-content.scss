@@ -1,0 +1,21 @@
+article {
+  @include width-container;
+  margin-top: $unit-large;
+
+  h1 {
+    @include useType(title);
+  }
+
+  h2 {
+    @include useType(subtitle);
+  }
+
+  h3 {
+    @include useType(subsubtitle);
+  }
+
+  p, 
+  ul {
+    @include useType(copy);
+  }
+}
