@@ -2,16 +2,17 @@
 title: "BBQ sauce"
 categories: ["condiments", "savoury", "BBQ"]
 ingredients: ["sugar", "whisky", "ketchup", "chipotle sauce", "liquid smoke", "BBQ seasoning", "cider vinegar", "molasses", "treacle", "maple syrup", "mustard", "jam", "hoi-sin sauce"]
+Description: "Instead of buying, why not try making your own BBQ sauce? It's healthier, and you can adjust the flavouring to make it your own"
 ---
 
 ## Ingredients
 
 ### The base
-- 4tsp Ketchup 
-- 1tsp Chipotle paste
-- 1tbsp Liquid Smoke
-- 1tsbp [BBQ seasoning](/bbq-seasoning.html)
-- 1tsbp cider vinegar
+- 4 tsp Ketchup 
+- 1 tsp Chipotle paste
+- 1 tbsp Liquid Smoke
+- 1 tsbp [BBQ seasoning](/bbq-seasoning.html)
+- 1 tsbp cider vinegar
 
 ### Something syrupy
 
