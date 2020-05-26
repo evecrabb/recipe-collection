@@ -4,3 +4,6 @@ Thumbs.db
 
 # dependencies
 /node_modules
+
+# build folders
+/public
