@@ -1,7 +1,7 @@
 .hero {
   background-image: url('../images/worktop.jpg');
   background-repeat: repeat-x;
-  background-size: cover;
+  background-size: 100%;
   margin-bottom: $unit-large;
 
   &__container {
